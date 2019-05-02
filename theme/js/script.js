@@ -243,7 +243,7 @@
 			$('.slide[data-view="'+view+'"]').addClass('current');
 		},
 		setCurrentTitle: function(view) {
-			$('title').html('Marty: '+$('.pane[data-view="'+$('.slide.current').data('view')+'"] img').attr('alt'));
+			$('title').html('Sankar: '+$('.pane[data-view="'+$('.slide.current').data('view')+'"] img').attr('alt'));
 		},
 		nextSlide: function() {
 			$slides.each(function() {
